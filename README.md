@@ -17,7 +17,7 @@ Welcome to Blog.Web, an open-source ASP.NET MVC project that serves as a fully-f
   
 - **ASP.NET MVC**: Built on the robust MVC architecture, this project provides a clean separation of concerns and extensibility.
 
-- **Database Integration**: Seamlessly connect your blog to a SQL Server database to store and manage posts, comments, and user data.
+- **Database Integration**: Seamlessly connect your blog to a SQL Server database to store and manage posts and user data.
 
 - **Responsive Design**: The project is designed to be responsive with Bootstrap, ensuring a consistent and user-friendly experience across various devices.
 
