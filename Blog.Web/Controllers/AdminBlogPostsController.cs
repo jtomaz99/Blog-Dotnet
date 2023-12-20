@@ -143,7 +143,7 @@ namespace Blog.Web.Controllers
 
             if (result != null)
             {
-                return RedirectToAction("Edit");
+                return RedirectToAction("Index", "Home");
             }
 
             return View("Edit");
