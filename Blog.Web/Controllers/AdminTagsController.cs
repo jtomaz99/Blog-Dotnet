@@ -90,7 +90,7 @@ namespace Blog.Web.Controllers
 
             }
 
-            return RedirectToAction("Edit", new { id = editTagRequest.Id });
+            return RedirectToAction("List", new { id = editTagRequest.Id });
         }
 
         [Authorize]
