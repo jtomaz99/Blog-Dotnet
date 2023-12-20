@@ -38,7 +38,7 @@ namespace Blog.Web.Controllers
 
                 if (roleIdentityResult.Succeeded)
                 {
-                    return RedirectToAction("Register");
+                    return RedirectToAction("Login");
                 }
             }
 
