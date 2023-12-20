@@ -23,6 +23,7 @@ namespace Blog.Web.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         [ActionName("Add")]
         public async Task<IActionResult> AddTag(AddTagRequest addTagRequest) 
@@ -46,6 +47,7 @@ namespace Blog.Web.Controllers
             return View(tags);
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Edit(Guid Id) 
         {
@@ -66,6 +68,7 @@ namespace Blog.Web.Controllers
             return View(null);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Edit(EditTagRequest editTagRequest) 
         {
@@ -90,6 +93,7 @@ namespace Blog.Web.Controllers
             return RedirectToAction("Edit", new { id = editTagRequest.Id });
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Delete(EditTagRequest editTagRequest) 
         {
