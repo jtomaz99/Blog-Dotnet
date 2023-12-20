@@ -29,7 +29,7 @@ Welcome to Blog.Web, an open-source ASP.NET MVC project that serves as a fully-f
 
 Make sure you have the following installed:
 
-- [.NET SDK](https://dotnet.microsoft.com/download) version 8 or later.
+- [.NET SDK](https://dotnet.microsoft.com/download) version 7 or later.
 - [Visual Studio](https://visualstudio.microsoft.com/) or any other code editor of your choice.
 
 ### Installation
